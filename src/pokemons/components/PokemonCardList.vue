@@ -11,7 +11,7 @@ defineProps<Props>();
 </script>
 
 <template>
-  <h2 class="title">Pokemon List ({{ count }})</h2>
+  <h2 class="title">Pokemon List Native ({{ count }})</h2>
   <div class="pokemon-container">
     <PokemonCard v-for="pokemon in pokemons" :key="pokemon.id" :pokemon="pokemon" />
   </div>
